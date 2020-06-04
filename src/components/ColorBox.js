@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./ColorBox.css";
-import { Link, withRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 import chroma from "chroma-js";
 import { withStyles } from "@material-ui/styles";
 
@@ -28,7 +28,6 @@ class ColorBox extends Component {
 
   render() {
     const { name, bgClr, moreUrl, showLink, classes } = this.props;
-    const isDark = chroma(bgClr).luminance() <= 0.07;
     const isLight = chroma(bgClr).luminance() >= 0.07;
     return (
       <div

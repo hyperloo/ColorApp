@@ -72,7 +72,6 @@ const useStyles = makeStyles((theme) => ({
 
 const NewPalletteForm = ({ savePallette, history, pallettes }) => {
   const classes = useStyles();
-  const theme = useTheme();
   const [open, setOpen] = useState(false);
   const [pickedColor, changePickedColor] = useState("purple");
   const [colors, addColors] = useState(pallettes[0].colors);
