@@ -3,18 +3,18 @@
   "name": "A Color Picker App for Interactive Pallette Management",
   "icons": [
     {
-      "src": "logo.png",
+      "src": "logo.jpg",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/png"
+      "type": "image/jpg"
     },
     {
-      "src": "logo.png",
-      "type": "image/png",
+      "src": "logo.jpg",
+      "type": "image/jpg",
       "sizes": "192x192"
     },
     {
-      "src": "logo.png",
-      "type": "image/png",
+      "src": "logo.jpg",
+      "type": "image/jpg",
       "sizes": "512x512"
     }
   ],
